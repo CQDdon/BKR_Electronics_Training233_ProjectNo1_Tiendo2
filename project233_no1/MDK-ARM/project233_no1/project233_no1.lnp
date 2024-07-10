@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"project233_no1\startup_stm32f103xb.o"
+"project233_no1\main.o"
+"project233_no1\stm32f1xx_it.o"
+"project233_no1\stm32f1xx_hal_msp.o"
+"project233_no1\stm32f1xx_hal_gpio_ex.o"
+"project233_no1\stm32f1xx_hal_tim.o"
+"project233_no1\stm32f1xx_hal_tim_ex.o"
+"project233_no1\stm32f1xx_hal.o"
+"project233_no1\stm32f1xx_hal_rcc.o"
+"project233_no1\stm32f1xx_hal_rcc_ex.o"
+"project233_no1\stm32f1xx_hal_gpio.o"
+"project233_no1\stm32f1xx_hal_dma.o"
+"project233_no1\stm32f1xx_hal_cortex.o"
+"project233_no1\stm32f1xx_hal_pwr.o"
+"project233_no1\stm32f1xx_hal_flash.o"
+"project233_no1\stm32f1xx_hal_flash_ex.o"
+"project233_no1\stm32f1xx_hal_exti.o"
+"project233_no1\stm32f1xx_hal_uart.o"
+"project233_no1\system_stm32f1xx.o"
+"project233_no1\motor.o"
+"project233_no1\pwm.o"
+"project233_no1\cmd.o"
+--strict --scatter "project233_no1\project233_no1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "project233_no1.map" -o project233_no1\project233_no1.axf
